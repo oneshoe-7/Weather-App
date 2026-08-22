@@ -1,0 +1,58 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.container{
+    background:rgba(32, 159, 176,0.4);
+    padding:30px;
+    border-radius:15px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    
+}
+h1{
+    margin-bottom:20px;
+}
+.search-box{
+    display:flex;
+    gap:10px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3498db;
+}
+.weather-card {
+    margin-top: 20px;
+}
+
+.weather-card p {
+    margin: 8px 0;
+    font-size: 18px;
+}
